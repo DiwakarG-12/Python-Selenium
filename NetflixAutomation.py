@@ -14,7 +14,7 @@ import time
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = '6521573715:AAFNH_TzSikfnFNnQEpMehgXxxKZQaIcsSA'
+TOKEN = 'Your Token'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("Bot is ready to execute the code.")
